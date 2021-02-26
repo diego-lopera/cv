@@ -9,12 +9,6 @@ body{
     font-family: sans-serif;
 }
 
-.contenedor{
-    
-    display: flex;
-    padding: 5px;
-
-}
 
 .aside{
 
@@ -24,7 +18,6 @@ body{
     padding: 20px;
     padding-bottom: 50px;
     border-radius: 5px;
-    width: 250px;
 }
 
 .cuerpo{
@@ -49,4 +42,13 @@ H1{
     background: rgb(9, 145, 122);
     border-radius: 5px;
     padding: 1px;
+}
+
+@media (min-width: 768px){
+    .contenedor{
+    
+        display: flex;
+        padding: 5px;
+    
+    }
 }
