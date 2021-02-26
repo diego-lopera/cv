@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(212, 214, 213);
+    color: #000;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    
+    display: flex;
+    padding: 5px;
+
+}
+
+.aside{
+
+    background: rgb(0, 2, 1);
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.cuerpo{
+
+    background: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+p{
+    margin: 2px;
+    padding: 2px;
+}
+
+.nombre{
+    background: rgb(9, 145, 122);
+}
+
+H1{
+    background: rgb(9, 145, 122);
+    border-radius: 5px;
+    padding: 1px;
+}
